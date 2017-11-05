@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="title_activity_learn">LearnActivity</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/SkillpointsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SkillLevelText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/SkillLevelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userlabel2"
+        android:layout_alignStart="@+id/userlabel2"
+        android:layout_below="@+id/genderer"
+        android:text="Skill Level:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/userlabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Gender:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/userlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userlabel2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userlabel2"
+        android:layout_marginTop="9dp"
+        android:text="User name:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/genderer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userlabel2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/userlabel"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/button_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SkillpointsLabel"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/userlabel2"
+        android:layout_toRightOf="@+id/userlabel2"
+        android:onClick="onClick"
+        android:text="Practice"
+        android:textSize="60dp" />
+
+</RelativeLayout>
+
